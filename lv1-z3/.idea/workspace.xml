@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cf5b070-3b17-4270-a8ce-69b580b4eb5e" name="Changes" comment="" />
+    <list default="true" id="3cf5b070-3b17-4270-a8ce-69b580b4eb5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Zadatak1.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +57,8 @@
       <workItem from="1698016171910" duration="218000" />
       <workItem from="1698145295077" duration="257000" />
       <workItem from="1698152443842" duration="6000" />
+      <workItem from="1698174908810" duration="8000" />
+      <workItem from="1698175154913" duration="6000" />
     </task>
     <servers />
   </component>
