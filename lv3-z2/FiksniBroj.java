@@ -1,4 +1,4 @@
-package rpr;
+package org.rpr;
 import java.util.*;
 import java.util.Objects;
 public class FiksniBroj extends TelefonskiBroj{

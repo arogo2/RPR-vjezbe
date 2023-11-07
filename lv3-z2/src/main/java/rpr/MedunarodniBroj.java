@@ -1,5 +1,4 @@
 package rpr;
-import java.util.*;
 import java.util.Objects;
 public class MedunarodniBroj extends TelefonskiBroj{
     private final String drzava;
@@ -8,6 +7,7 @@ public class MedunarodniBroj extends TelefonskiBroj{
         this.drzava = drzava;
         this.broj = broj;
     }
+
     public String ispisi() {
         return drzava + "/" + broj;
     }

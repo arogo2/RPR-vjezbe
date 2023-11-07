@@ -24,12 +24,12 @@ public class Imenik {
         int brojac = 1;
         for (Map.Entry<String, TelefonskiBroj> entry : imenik.entrySet()) {
             if (entry.getKey().charAt(0) == s) {
-               rezultat.append(brojac)
-                       .append(" - ")
-                       .append(entry.getKey())
-                       .append(" - ")
-                       .append(entry.getValue().ispisi())
-                       .append("\n");
+                rezultat.append(brojac)
+                        .append(" - ")
+                        .append(entry.getKey())
+                        .append(" - ")
+                        .append(entry.getValue().ispisi())
+                        .append("\n");
             }
             brojac++;
         }
