@@ -1,5 +1,5 @@
 package ba.unsa.etf.rpr;
-public class LicneInformacije {
+public class LicneInformacije implements MozeSePredstaviti{
     private String ime;
     private String prezime;
     public LicneInformacije(String ime, String prezime) {
@@ -18,6 +18,7 @@ public class LicneInformacije {
     public void setPrezime(String prezime) {
         this.prezime = prezime;
     }
+    @Override
     public String predstavi() {
         return "Ime: " + ime + ", Prezime: " + prezime;
     }

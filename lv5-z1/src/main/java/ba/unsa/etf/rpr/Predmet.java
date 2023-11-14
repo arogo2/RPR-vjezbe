@@ -1,7 +1,11 @@
 package ba.unsa.etf.rpr;
-public class Predmet {
+public class Predmet implements MozeSePredstaviti{
     private String naziv;
     private String opisPredmeta;
+    public Predmet(String naziv, String opisPredmeta) {
+        this.naziv = naziv;
+        this.opisPredmeta = opisPredmeta;
+    }
     public String getNaziv() {
         return naziv;
     }
@@ -13,5 +17,9 @@ public class Predmet {
     }
     public void setOpisPredmeta(String opisPredmeta) {
         this.opisPredmeta = opisPredmeta;
+    }
+    @Override
+    public String predstavi() {
+        return "Naziv: " + getNaziv() + ", Opis predmeta: " + getOpisPredmeta();
     }
 }

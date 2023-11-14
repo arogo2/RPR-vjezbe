@@ -1,13 +1,13 @@
 package ba.unsa.etf.rpr;
-public class InformacijeOStudentu extends LicneInformacije{
+public class InformacijeOStudentu extends LicneInformacije implements MozeSePredstaviti{
     private String ime;
     private String prezime;
     private String godinaStudija = "";
     private String brojIndeksa = "";
     public InformacijeOStudentu(String ime, String prezime, String godinaStudija, String brojIndeksa) {
         super(ime, prezime);
-        this.godinaStudija = "";
-        this.brojIndeksa = "";
+        this.godinaStudija = godinaStudija;
+        this.brojIndeksa = brojIndeksa;
     }
     public InformacijeOStudentu() {
         super(null, null);
@@ -32,6 +32,6 @@ public class InformacijeOStudentu extends LicneInformacije{
     }
     @Override
     public String predstavi() {
-        return super.predstavi() + ", Godina studija: " + godinaStudija + ", Broj indexa: " + brojIndeksa;
+        return super.predstavi() + ", Godina studija: " + getGodinaStudija() + ", Broj indexa: " + getBrojIndeksa();
     }
 }
